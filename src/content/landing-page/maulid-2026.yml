@@ -1,50 +1,57 @@
-hero_title: "UMROH SPESIAL BULAN MAULID 2026"
-hero_subtitle: "Umroh Tanpa Ribet. Free Kereta Cepat."
-hero_text: "Bayangkan umroh ke Tanah Suci di bulan Maulid... tanpa pusing mikirin logistik. Kami urus semuanya untuk kenyamanan ibadah Anda."
-price: "30,9 Juta / Pax"
-dp: "2 JUTA"
-departure_date: "03 – 13 September 2026"
-duration: "12 Hari Perjalanan"
-whatsapp: "+62 857-4222-2901"
+hero_title: UMROH SPESIAL BULAN MAULID 2026
+hero_subtitle: Umroh Tanpa Ribet. Free Kereta Cepat.
+hero_text: Bayangkan umroh ke Tanah Suci di bulan Maulid... tanpa pusing mikirin
+  logistik. Kami urus semuanya untuk kenyamanan ibadah Anda.
+price: 30,9 Juta / Pax
+dp: 2 JUTA
+departure_date: 03 – 13 September 2026
+duration: 12 Hari Perjalanan
+whatsapp: +62 857-4222-2901
 include:
-  - "Tiket Pesawat PP Internasional"
-  - "Visa Umroh"
-  - "Hotel Makkah & Madinah"
-  - "Makan 3x Sehari (Fullboard)"
-  - "Air Zam-Zam 5L (Sesuai Regulasi)"
-  - "Tour Leader & Muthawif Berpengalaman"
-  - "Handling & Perlengkapan"
+  - Tiket Pesawat PP Internasional
+  - Visa Umroh
+  - Hotel Makkah & Madinah
+  - Makan 3x Sehari (Fullboard)
+  - Air Zam-Zam 5L (Sesuai Regulasi)
+  - Tour Leader & Muthawif Berpengalaman
+  - Handling & Perlengkapan
 exclude:
-  - "Pembuatan Paspor"
-  - "Upgrade Kamar"
-  - "Hotel Manasik"
-  - "Biaya perubahan kebijakan pemerintah"
+  - Pembuatan Paspor
+  - Upgrade Kamar
+  - Hotel Manasik
+  - Biaya perubahan kebijakan pemerintah
 itinerary:
-  - day: "03 Sep"
-    title: "Keberangkatan"
-    desc: "Kumpul di Bandara Soekarno Hatta (Terminal 3) & Terbang ke Jeddah menggunakan Garuda Indonesia."
-    accent: "SEPTEMBER"
-  - day: "04 Sep"
-    title: "Tiba di Madinah"
-    desc: "Check-in hotel Jawharat Arasyid dan beristirahat sejenak untuk memulihkan tenaga."
-    accent: "MADINAH"
-  - day: "05 Sep"
-    title: "Ziarah Madinah"
-    desc: "Ziarah Raudhah, Makam Rasulullah ﷺ, dan City Tour tempat bersejarah di Kota Madinah."
-    accent: "ZIARAH"
-  - day: "06 Sep"
-    title: "Menuju Makkah"
-    desc: "Persiapan Ihram & Menuju Makkah menggunakan Kereta Cepat untuk melaksanakan Ibadah Umroh Pertama."
-    accent: "UMROH"
-  - day: "07–12 Sep"
-    title: "Ibadah & City Tour Makkah"
-    desc: "Memperbanyak Ibadah di Masjidil Haram, City Tour Kota Makkah, dan kesempatan Umroh Kedua."
-    accent: "MAKKAH"
-  - day: "13 Sep"
-    title: "Tawaf Wada & Kepulangan"
-    desc: "Tawaf Wada sebagai perpisahan, menuju Jeddah & Terbang kembali ke Indonesia."
-    accent: "PULANG"
-  - day: "14 Sep"
-    title: "Tiba di Jakarta"
-    desc: "Alhamdulillah, tiba kembali di Bandara Soekarno Hatta dengan selamat."
-    accent: "FINISH"
+  - day: 04 Sep
+    title: Keberangkatan
+    desc: Kumpul di Bandara Soekarno Hatta (Terminal 3) & Terbang ke Jeddah
+      menggunakan Garuda Indonesia.
+    accent: SEPTEMBER
+  - day: 04 Sep
+    title: Tiba di Madinah
+    desc: Check-in hotel Jawharat Arasyid dan beristirahat sejenak untuk memulihkan
+      tenaga.
+    accent: MADINAH
+  - day: 05 Sep
+    title: Ziarah Madinah
+    desc: Ziarah Raudhah, Makam Rasulullah ﷺ, dan City Tour tempat bersejarah di
+      Kota Madinah.
+    accent: ZIARAH
+  - day: 06 Sep
+    title: Menuju Makkah
+    desc: Persiapan Ihram & Menuju Makkah menggunakan Kereta Cepat untuk
+      melaksanakan Ibadah Umroh Pertama.
+    accent: UMROH
+  - day: 07–12 Sep
+    title: Ibadah & City Tour Makkah
+    desc: Memperbanyak Ibadah di Masjidil Haram, City Tour Kota Makkah, dan
+      kesempatan Umroh Kedua.
+    accent: MAKKAH
+  - day: 13 Sep
+    title: Tawaf Wada & Kepulangan
+    desc: Tawaf Wada sebagai perpisahan, menuju Jeddah & Terbang kembali ke
+      Indonesia.
+    accent: PULANG
+  - day: 14 Sep
+    title: Tiba di Jakarta
+    desc: Alhamdulillah, tiba kembali di Bandara Soekarno Hatta dengan selamat.
+    accent: FINISH
