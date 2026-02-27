@@ -1,0 +1,94 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Umroh Nyaman & Berkah dengan Kidma Travel" } =
+	Astro.props;
+---
+
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Identity Widget -->
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+		></script>
+	</head>
+	<body class="bg-white font-inter text-dark antialiased">
+		<slot />
+
+		<script>
+			// @ts-ignore
+			if (window.netlifyIdentity) {
+				// @ts-ignore
+				window.netlifyIdentity.on("init", (user) => {
+					if (!user) {
+						// @ts-ignore
+						window.netlifyIdentity.on("login", () => {
+							document.location.href = "/admin/";
+						});
+					}
+				});
+			}
+
+			// Scroll Reveal Observer
+			const observerOptions = {
+				threshold: 0.1,
+			};
+
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add("visible");
+					}
+				});
+			}, observerOptions);
+
+			document.querySelectorAll(".reveal").forEach((el) => {
+				observer.observe(el);
+			});
+		</script>
+	</body>
+</html>
+
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+	}
+
+	h1,
+	h2,
+	h3,
+	.font-serif {
+		font-family: "Playfair Display", serif;
+	}
+
+	.reveal {
+		opacity: 0;
+		transform: translateY(30px);
+		transition: all 0.8s ease-out;
+	}
+
+	.reveal.visible {
+		opacity: 1;
+		transform: translateY(0);
+	}
+</style>
