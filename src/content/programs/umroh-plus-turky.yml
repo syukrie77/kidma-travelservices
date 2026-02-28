@@ -1,0 +1,21 @@
+title: Umroh Plus Turky
+hero_title: Test Umroh Plus Turky
+hero_subtitle: test test
+hero_text: test banget
+price: 35.000.000
+dp: 2 Juta
+departure_date: test
+duration: test duration
+whatsapp: "08633333333"
+include:
+  - visa
+  - test
+  - test
+exclude:
+  - test
+  - test
+  - test
+itinerary:
+  - day: hari 1
+    title: test hari 1
+    desc: "testing "
