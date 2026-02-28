@@ -31,3 +31,31 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Short Desc", name: "desc", widget: "string"}
               - {label: "Accent Label", name: "accent", widget: "string", required: false}
+
+  - name: "programs"
+    label: "Program Umroh"
+    folder: "src/content/programs"
+    create: true
+    slug: "{{slug}}"
+    format: "yaml"
+    extension: "yml"
+    fields:
+      - {label: "Program Name (Slug)", name: "title", widget: "string"}
+      - {label: "Hero Title", name: "hero_title", widget: "string"}
+      - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string"}
+      - {label: "Emotional Copy", name: "hero_text", widget: "text"}
+      - {label: "Price", name: "price", widget: "string"}
+      - {label: "DP", name: "dp", widget: "string"}
+      - {label: "Departure Date", name: "departure_date", widget: "string"}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - {label: "WhatsApp Number", name: "whatsapp", widget: "string"}
+      - {label: "Include Items", name: "include", widget: "list"}
+      - {label: "Exclude Items", name: "exclude", widget: "list"}
+      - label: "Itinerary"
+        name: "itinerary"
+        widget: "list"
+        fields:
+          - {label: "Day/Date", name: "day", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Short Desc", name: "desc", widget: "string"}
+          - {label: "Accent Label", name: "accent", widget: "string", required: false}
