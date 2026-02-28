@@ -1,15 +1,22 @@
-title: Test Program Umroh plus China
-hero_title: Umroh Syawal
-hero_subtitle: Test Hero Subtitle
-hero_text: Test Hero Text
-price: Rp 30.000.000
-dp: Rp 5.000.000
-departure_date: 10 Syawal 1447 H
-duration: 9 Hari
-whatsapp: "08123456789"
+title: Umroh Plus City Tour Haikou, China
+hero_title: Capek ya?
+hero_subtitle: Rutinitas, kerja, dan hidup yang makin padat… Mungkin sekarang
+  waktunya kamu berhenti sebentar.
+hero_text: |
+  Bukan sekadar healing, tapi pulang.
+  Ke tempat hati ditenangkan dan luka diluruhkan dalam doa.
+price: Rp 23.900.000
+dp: Rp 2.000.000
+departure_date: 5-16 September 2026
+duration: 12 Hari
+whatsapp: 0857-4222-2901
 include:
-  - Test Include 1
-  - Test Include 2
+  - Free
+  - Visa
+  - Free
+  - City
+  - Tour
+  - Haikou
 exclude:
   - Test Exclude 1
   - Test Exclude 2
