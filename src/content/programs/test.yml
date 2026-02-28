@@ -1,20 +1,20 @@
-title: "Test Program"
-hero_title: "Test Hero Title"
-hero_subtitle: "Test Hero Subtitle"
-hero_text: "Test Hero Text"
-price: "Rp 30.000.000"
-dp: "Rp 5.000.000"
-departure_date: "10 Syawal 1447 H"
-duration: "9 Hari"
+title: Test Program Umroh plus China
+hero_title: Test Hero Title
+hero_subtitle: Test Hero Subtitle
+hero_text: Test Hero Text
+price: Rp 30.000.000
+dp: Rp 5.000.000
+departure_date: 10 Syawal 1447 H
+duration: 9 Hari
 whatsapp: "08123456789"
 include:
-  - "Test Include 1"
-  - "Test Include 2"
+  - Test Include 1
+  - Test Include 2
 exclude:
-  - "Test Exclude 1"
-  - "Test Exclude 2"
+  - Test Exclude 1
+  - Test Exclude 2
 itinerary:
-  - day: "Hari 1"
-    title: "Jakarta - Madinah"
-    desc: "Keberangkatan"
-    accent: "Penting"
+  - day: Hari 1
+    title: Jakarta - Madinah
+    desc: Keberangkatan
+    accent: Penting
